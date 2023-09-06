@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+ background: linear-gradient(45deg,#fbda61,#ff5acd);
+
+}
+.github-card {
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.github-card:hover {
+  background: linear-gradient(45deg, #ff6b6b, #56ab2f);
+  color: white;
+  transform: scale(1.05);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #f9b76b;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  overflow: hidden; /* Add overflow: hidden to hide overflowing content */
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.user-details {
+  margin-top: 15px;
+}
+
+.user-details p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #444;
+}
